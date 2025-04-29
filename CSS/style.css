@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f8fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* List Item Styles */
+.list-group-item {
+  transition: all 0.2s ease-in-out;
+  border-left: 4px solid transparent;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.list-group-item.dragging {
+  opacity: 0.7;
+  border-left: 4px solid #0d6efd;
+  background-color: #e9ecef;
+}
+
+.list-group-item h3 {
+  word-break: break-word;
+}
+
+/* Deadline Status Colors */
+.text-danger {
+  font-weight: 500;
+}
+
+/* Empty List Item */
+.emptyListItem {
+  color: #6c757d;
+  cursor: default !important;
+  background-color: #f8f9fa;
+  border-style: dashed;
+  border-left: 4px solid #6c757d;
+}
+
+/* Button Styles */
+.btn {
+  transition: all 0.2s;
+}
+
+.editBtn:hover,
+.removeBtn:hover {
+  transform: translateY(-2px);
+}
+
+/* Checkbox enhancements */
+.form-check-input {
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+/* Drag item opacity */
+.dragging {
+  opacity: 0.5;
+}
+
+/* Animation for completed items */
+.text-decoration-line-through {
+  transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .list-group-item .d-flex {
+    flex-wrap: wrap;
+  }
+
+  .list-group-item h3 {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .list-group-item .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+  }
+}
