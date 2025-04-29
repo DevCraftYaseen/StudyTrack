@@ -74,7 +74,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Yaseen Khan**
 - GitHub: [@DevCraftYaseen](https://github.com/DevCraftYaseen)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/devcraftyaseen)
+- LinkedIn: [Yaseen Khan](https://linkedin.com/in/devcraftyaseen)
 
 ## 🙏 Acknowledgments
 
